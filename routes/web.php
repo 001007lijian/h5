@@ -16,4 +16,7 @@
 //});
 
 
-Route::get('/','index\\IndexController@index');
+Route::get('/','index\\IndexController@index'); //网站首页
+
+//用户管理
+Route::get('user/register','user\\UserController@register');
